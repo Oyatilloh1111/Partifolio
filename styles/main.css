@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    background-image: url('../sourse/header/Gleb\ 1.svg');
+    background-repeat: no-repeat;
+    background-position: 100% 128px;
+    padding: 100px 20px 200px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #333
+}
+
+.header-nav-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+ .header-nav-logo{
+    object-fit: contain;
+    text-align: center;
+ }
+ .header-nav-items {
+      width: 70%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+ }
+ .header-nav-items a {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between ;
+    align-items: center;
+    width: 70%;
+    text-decoration: none;
+    background-image: url('../sourse/section2/Logo.svg');
+}
+
+.header-contant{
+    margin-top: 200px;
+    color: #E4E4E4;
+}
+.header-contant h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+.header-contant h1{
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 72px;
+    line-height: 82px;
+    margin-bottom: 30px;
+    max-width: 5550px;
+    
+}
+.header-contant p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 30px;
+    width: 430px;
+}
+.header-contant a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #000000;
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500);
+    box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.47);
+    border-radius: 6px;
+    padding: 15px 40px;
+}
+
+.section1-content{
+    background-image: url('../sourse/header/Gleb\ 1.svg') no-repeat center;
+    padding: 100px;
+}
+
+.section1{
+    padding: 159px 0px;
+    background: linear-gradient(13068deg, #414141 0%, #2D2D2D 100.52%);
+
+}
+.section1-skills-contianer{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 123px;
+}
+.section1-skills-card{
+    padding: 56px 60px ;
+    align-items: center;
+    max-width: 270px;
+    height: 270px;
+    background: #2A2A2A;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+    border-radius: 29px;
+    margin: 0px 20px 30px;
+    padding: 63px;
+}
+
+.section1-skills-card img{
+    margin-bottom: 48px;
+    object-fit: contain;
+    width: 75px;
+    height: 75px;
+}
+
+.section1-skills-card h1 {
+    color: #E4E4E4;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;    
+}
+
+.section1-content{
+    background-color: #2C2C2C;
+    border-radius: 14px;
+    padding: 63px;
+    max-width: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 156px;
+}
+.section1-content img{
+    position: absolute;
+    border: 20px solid #2C2C2C;    border-radius: 14px;
+}
+.section1-content_image1{
+    top: -19%;
+    left: -250px;
+    width: 274px ;
+    height: 303px;
+   
+}
+
+.section1-content_image2{
+    bottom: -10%;
+    left: -250px;
+    width: 250px ;
+    height: 303px;
+}
+
+.section1-content_image3{
+    bottom: 35%;
+    right: -250px;
+    width: 250px ;
+    height: 430px;
+}
+
+.section1-content h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+    margin-top: -100px;
+    margin-bottom: 36px; 
+}
+
+.section1-content p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+/* Section2 */
+
+#section2{
+    padding: 100px 0px 150px 0px;
+    background-color: rgb( 36, 36, 36);
+}
+.section2{
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+}
+
+.section2_title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 54px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 50px ;
+}
+
+.section2-content{
+    padding: 50px ;
+    max-width: 1100px ;
+    width: 100%;
+    background: linear-gradient(130,68deg,#414141 0%, #2D2D2D 100.52%);
+    box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
+    border-radius: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.section2-conten_image{
+    border-radius: 29px;
+    width: 600px ;
+    object-fit: cover;
+}
+.section2-content-text{
+    max-width: 300px ;
+    text-align: center;
+   }
+.section2-content-text_title{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 29px;
+}
+.section2-content-text_paragraph{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.section2-content-text_link{
+    display: inline-block;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #E2A100;
+    text-decoration: none;
+    position: relative;
+}
+
+.section2-contianer_btn1, .section2-contianer_btn2 {
+    position: absolute;
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    padding: 15px ;
+    border: none ;
+    border-radius: 50%;
+}
+
+.section2-contianer_btn1{
+    top: 45%;
+    left: -10%;
+}
+
+.section2-contianer_btn2{
+    top: 45%;
+    right: -10%;
+}
+
+.section2-content-text_link::after{
+       position: absolute;
+       top: 25%;
+       width: 15px;
+       height: 8px;
+       background: url("../sourse/section2/LeftIndex.svg") ;
+       background-size: cover;
+       background-repeat: no-repeat;
+       margin-left: 10px;
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
